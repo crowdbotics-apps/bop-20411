@@ -177,6 +177,10 @@ class Category(models.Model):
         blank=True,
         max_length=256,
     )
+    chat = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
 
 
 # Create your models here.
